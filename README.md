@@ -1,4 +1,4 @@
-# Very short description of the package
+# Laravel Leadlovers Service Provider
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/thiagovictorino/laravel-leadlovers.svg?style=flat-square)](https://packagist.org/packages/thiagovictorino/laravel-leadlovers)
 [![Total Downloads](https://img.shields.io/packagist/dt/thiagovictorino/laravel-leadlovers.svg?style=flat-square)](https://packagist.org/packages/thiagovictorino/laravel-leadlovers)
