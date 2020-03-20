@@ -19,6 +19,14 @@ composer require thiagovictorino/laravel-leadlovers
 // Usage description here
 ```
 
+### Configuration
+
+To create configuration file run:
+
+``` bash
+php artisan vendor:publish --provider="Victorino\LeaderLovers\LeadLoversServiceProvider"
+```
+
 ### Testing
 
 ``` bash

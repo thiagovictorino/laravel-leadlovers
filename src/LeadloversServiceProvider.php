@@ -13,7 +13,7 @@ class LeadloversServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../config/config.php' => config_path('leadlovers.php'),
+                __DIR__ . '/../config/leadlovers.php' => config_path('leadlovers.php'),
             ], 'config');
 
         }
@@ -25,7 +25,7 @@ class LeadloversServiceProvider extends ServiceProvider
     public function register()
     {
         // Automatically apply the package configuration
-        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'leadlovers');
+        $this->mergeConfigFrom(__DIR__ . '/../config/leadlovers.php', 'leadlovers');
 
         // Register the main class to use with the facade
         $this->app->singleton('leadlovers', function () {
