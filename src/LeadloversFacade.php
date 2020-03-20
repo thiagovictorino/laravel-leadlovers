@@ -1,13 +1,13 @@
 <?php
 
-namespace Victorino\LaravelLeadlovers;
+namespace Victorino\Leadlovers;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Thiagovictorino\LaravelLeadlovers\Skeleton\SkeletonClass
+ * @see \Thiagovictorino\Leadlovers\Skeleton\SkeletonClass
  */
-class LaravelLeadloversFacade extends Facade
+class LeadloversFacade extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -16,6 +16,6 @@ class LaravelLeadloversFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'laravel-leadlovers';
+        return 'leadlovers';
     }
 }

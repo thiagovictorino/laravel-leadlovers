@@ -3,7 +3,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/thiagovictorino/laravel-leadlovers.svg?style=flat-square)](https://packagist.org/packages/thiagovictorino/laravel-leadlovers)
 [![Total Downloads](https://img.shields.io/packagist/dt/thiagovictorino/laravel-leadlovers.svg?style=flat-square)](https://packagist.org/packages/thiagovictorino/laravel-leadlovers)
 
-This is an unofficial Laravel service provider that helps your to integrate you Laravel app with [Leadlovers](https://leadlovers.com.br)
+This is an unofficial Laravel service provider that helps you to integrate your Laravel app with [Leadlovers](https://leadlovers.com.br)
 
 ## Installation
 

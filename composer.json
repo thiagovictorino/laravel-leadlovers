@@ -3,6 +3,8 @@
     "description": "This package is unofficial an helper to integrate you Laravel app with the Leadlovers platform.",
     "keywords": [
         "thiagovictorino",
+        "laravel",
+        "leadlovers",
         "laravel-leadlovers"
     ],
     "homepage": "https://github.com/thiagovictorino/laravel-leadlovers",
@@ -17,6 +19,7 @@
     ],
     "require": {
         "php": "^7.1",
+        "guzzlehttp/guzzle": "~6.0",
         "illuminate/support": "^6.0"
     },
     "require-dev": {
@@ -25,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Victorino\\LaravelLeadlovers\\": "src"
+            "Victorino\\Leadlovers\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Victorino\\LaravelLeadlovers\\Tests\\": "tests"
+            "Victorino\\Leadlovers\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Victorino\\LaravelLeadlovers\\LaravelLeadloversServiceProvider"
+                "Victorino\\Leadlovers\\LeadloversServiceProvider"
             ],
             "aliases": {
-                "LaravelLeadlovers": "Victorino\\LaravelLeadlovers\\LaravelLeadloversFacade"
+                "Leadlovers": "Victorino\\Leadlovers\\LeadloversFacade"
             }
         }
     }
