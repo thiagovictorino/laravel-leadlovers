@@ -11,12 +11,10 @@ class LeadloversServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        if ($this->app->runningInConsole()) {
-            $this->publishes([
-                __DIR__ . '/../config/leadlovers.php' => config_path('leadlovers.php'),
-            ], 'config');
+        $this->publishes([
+            __DIR__ . '/../config/leadlovers.php' => config_path('leadlovers.php'),
+        ], 'config-loeadlovers');
 
-        }
     }
 
     /**
