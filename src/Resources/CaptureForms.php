@@ -21,7 +21,7 @@ class CaptureForms extends Resources
     public function send(Lead $lead) {
         $lead->mid = $this->machine->Code;
         $lead->fid = $this->captureForm->Code;
-        $this->post('capture', $lead->toArray());
+        return $this->post('capture', $lead->toArray());
     }
 
     /**

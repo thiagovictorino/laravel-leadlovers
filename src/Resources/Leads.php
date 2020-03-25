@@ -19,7 +19,6 @@ class Leads extends ApiResources
         $data['MachineCode'] = $this->machine->Code;
         $data['EmailSequenceCode'] = $this->emailSequence->Code;
         $data['SequenceLevelCode'] = $this->level->Code;
-        $this->post('Lead',$data);
-        return true;
+        return $this->post('Lead',$data);
     }
 }
